@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -69,7 +69,7 @@
                 examEndMessage.style.display = 'none'; // 시험 종료 메시지 숨김
             }
             // 50분이 되면 '시험 종료' 메시지 표시, 시계 색상 유지
-            else if (minutes >= 50) {
+            else if (minutes >= 41) {
                 currentTimeDisplay.classList.add('red-text'); // 시계 색상 유지
                 examEndMessage.style.display = 'block'; // 시험 종료 메시지 표시
             }
